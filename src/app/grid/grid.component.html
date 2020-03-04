@@ -1,0 +1,8 @@
+<table class="mt-4">
+  <tr *ngFor="let row of grid$ | async">
+    <td>{{ row }}</td>
+  </tr>
+</table>
+<h2> Grid </h2>
+
+<button (click)="onAddMore()"> Add More </button>
